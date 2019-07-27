@@ -33,6 +33,10 @@ grouperInstaller.autorun.tarballDirectory = /tmp/tarballs
 grouperInstaller.autorun.appToUpgrade = api
 grouperInstaller.autorun.grouperWhereInstalled = $GROUPER_HOME
 grouperInstaller.autorun.patchAction = install
+# autorun, Do you want to install grouper rabbitMQ messaging (t|f)? [f]:
+grouperInstaller.autorun.installGrouperRabbitMqMessaging = true
+# autorun Where do you want the Grouper RabbitMQ messaging connector installed?
+grouperInstaller.autorun.rabbitMqWhereInstalled = $GROUPER_HOME
 grouper.version = $GROUPER_VERSION
 download.server.url = http://software.internet2.edu/grouper
 EOF
